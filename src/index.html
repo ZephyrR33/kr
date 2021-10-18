@@ -6,8 +6,187 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="/assets/main.css" rel="stylesheet" />
 </head>
 <body>
-  <app-root></app-root>
+   
+<div class="header">
+<h1>Контрольная работа №1</h1>
+  <nav>
+    <a href="#introduction">Введение</a>
+    <a href="#topic1">Тема №1</a>
+    <a href="#topic2">Тема №2</a>
+    <a href="#statistics">Статистика</a>
+    <a href="#feedback">Обратная связь</a>
+
+</nav>
+<hr>
+</div>
+
+
+<div class="container">
+  <h1 id="introduction">Введение</h1>
+  <h3>В этой статье вы узнаете историю появления вирусов семейства "Коронавирусы"</h3>
+  <hr>
+  
+  
+  <h1 id="topic1">Коронавирусы</h1>
+  <h3>Коронавирусы – это большое семейство вирусов, в которое входят<br> вирусы, способные вызывать целый ряд заболеваний у людей – от<br> распространенной простуды до тяжелого острого респираторного<br> синдрома (ТОРС, "атипичная пневмония"), а также воспалительный<br> процесс пищеварительного тракта</h3>
+  <hr>
+  
+  
+  
+  <h1 id="topic2">История появления</h1>
+  <h3>Коронавирус человека был впервые выделен в 1965 году от больного<br> острым респираторным заболеванием. Различные виды коронавирусов<br> широко распространены в природе, вызывая различную инфекционную<br> патологию у животных.<br>Сейчас семейство коронавирусов включает более 30 видов. Оно постоянно<br> пополняется.<br>У человека острую респираторную инфекцию вызывают четыре вида<br> коронавирусов: 229E, OC43, NL63, HKUI, чаще протекающую с поражением<br> верхних дыхательных путей легкой или средней тяжести, и в редких<br> случаях – с инфекциями нижних дыхательных путей.</h3>
+  <hr>
+  
+  
+  
+  <h1 id="statistics">
+    А это статистика
+  </h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Страна</th>
+        <th>Общее кол-во заболевших</th>
+        <th>Кол-во заболевших сегодня</th>
+        <th>Кол-во выздоровленых</th>
+        <th>Кол-во смертей</th>
+      </tr>
+    </thead>
+  
+  
+    <tr>
+      <td>США</td>
+      <td>45 792 532</td>
+      <td>6 404</td>
+      <td>35 374 595</td>
+      <td>744 546</td>
+    </tr>
+  
+    <tr class="bcg-table">
+      <td>Индия</td>
+      <td>34 081 315</td>
+      <td>275</td>
+      <td>33 439 331</td>
+      <td>452 321</td>
+    </tr>
+  
+    <tr>
+      <td>Бразилия</td>
+      <td>21 644 464</td>
+      <td>5 738</td>
+      <td>20 794 497</td>
+      <td>603 324</td>
+    </tr>
+  
+    <tr class="bcg-table">
+      <td>Турция</td>
+      <td>7 654 277</td>
+      <td>-</td>
+      <td>7 089 766</td>
+      <td>67 623</td>
+    </tr>
+  
+    <tr >
+      <td>Россия</td>
+      <td>8 027 012</td>
+      <td>34 325</td>
+      <td>7 017 055</td>
+      <td>224 310</td>
+    </tr>
+  
+    <tr class="bcg-table">
+      <td>Великобритания</td>
+      <td>8 449 165</td>
+      <td>-</td>
+      <td>6 916 439</td>
+      <td>138 584</td>
+    </tr>
+    
+    <tr>
+      <td>Иран</td>
+      <td>5 796 659</td>
+      <td>11 844</td>
+      <td>5 333 304</td>
+      <td>124 256</td>
+    </tr>
+  
+    <tr class="bcg-table">
+      <td>Аргентина</td>
+      <td>5 272 551</td>
+      <td>400</td>
+      <td>5 139 615</td>
+      <td>115 666</td>
+    </tr>
+  
+    <tr>
+      <td>Испания</td>
+      <td>4 984 386</td>
+      <td>-</td>
+      <td>4 825 794</td>
+      <td>86 974</td>
+    </tr>
+  
+  
+  </table>
+  <hr>
+  
+  
+  <h1 id="feedback">Связаться со мной напрямую</h1>
+  <div>
+   
+    <form>
+      <div>
+        <label>
+          Name:
+            <input type="text" placeholder="Name">
+        </label>
+      </div>
+  
+      <div>
+        <label>
+          Email:
+          <input type="email" placeholder="email">
+        </label>
+      </div>
+  
+      <div>
+        <label>
+          Age:
+            <input type="number" placeholder="20">
+        </label>
+      </div>
+  
+      <div>
+        <label>
+          Мужчина:
+          <input type="radio" name="gender" value="Женщина" ><br>
+          Женщина:
+          <input type="radio" name="gender" value="Мужчина" >
+  
+        </label>
+      </div>
+  
+      О себе:
+      <div>
+   
+        <label>
+          
+          <textarea placeholder="Напишите что-нибудь о себе"></textarea>
+        </label>
+      </div>
+  
+      
+      <div>
+        <button class="atuin-btn">Отправить</button>
+      </div>
+  
+  
+    </form>
+  </div>
+</div>
+
 </body>
 </html>
